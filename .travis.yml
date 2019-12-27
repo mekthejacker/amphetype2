@@ -44,7 +44,7 @@ after_success:
 
 branches:
   only:
-  - mekthejacker/amphetype2
+  - master
   - mekthejacker-patch-test
   
 before_deploy:
