@@ -44,11 +44,11 @@ after_success:
 
 branches:
   only:
-  - mekthejacker/amphetype2
+  - master
   - mekthejacker-patch-test
   
 before_deploy:
-      # Set up git user name and tag this commit
+      # Set up git user name and tag this commi
       - git config --local user.name "mekthejacker"
       - git config --local user.email "shae.roberts@gmail.com"
 
